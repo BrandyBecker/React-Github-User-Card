@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.content {
+  /* background-color: rgba(159, 112, 171, 0.846); */
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ba2f71c8-4b1a-4100-8e0d-b33068446e41/d97ma0i-60c2c3d3-4f28-4b48-b07d-4cc6cefcc513.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2JhMmY3MWM4LTRiMWEtNDEwMC04ZTBkLWIzMzA2ODQ0NmU0MVwvZDk3bWEwaS02MGMyYzNkMy00ZjI4LTRiNDgtYjA3ZC00Y2M2Y2VmY2M1MTMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.HWx9z1FYIrCJy3ygOV_D4VMIHYLDL6kI5mh4weozno4");
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  background: white;
+  opacity: 0.8;
+  border: 3px solid black;
+  border-radius: 1em;
+  margin-bottom: 2rem;
+  width: 40rem;
+  text-align: center;
+  color: black;
+}
+
+.ghlogo {
+  width: 3rem;
+  margin-top: 1rem;
+}
+
+.followers {
+  font-size: 1.3rem;
+  color: #ee8441;
+  
+}
